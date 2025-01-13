@@ -1,0 +1,26 @@
+{
+  "name": "leetcode-basic",
+  "version": "1.0.0",
+  "description": "basic version of leetcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepthi262/basicsOfWebDev.git"
+  },
+  "keywords": [
+    "All",
+    "Basics"
+  ],
+  "author": "Deepthi Mekala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepthi262/basicsOfWebDev/issues"
+  },
+  "homepage": "https://github.com/deepthi262/basicsOfWebDev#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
