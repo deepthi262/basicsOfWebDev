@@ -6,11 +6,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/route1", (req, res) => {
-  res.status(200).send("Hello World from route1");
+  res.status(200).json({ name: "deepthi", job: "yes" });
 });
 
 app.get("/chat", (req, res) => {
-  res.send("<html><body><h1>chat</h1></body></html>");
+  res.send("<html><body><h1 style = 'color: red'>chat</h1></body></html>");
 });
 
 app.listen(port, () => {
